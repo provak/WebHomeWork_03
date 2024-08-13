@@ -71,3 +71,40 @@ body {
   margin-bottom: 40px;
   width: 872px;
 }
+
+.gray-box {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #f3f3f3;
+}
+
+.gray-box:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.gray-box .text {
+  margin-bottom: 10px;
+  width: 692px;
+}
+
+.main__list {
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+}
+
+.main__list__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.image {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.fig__box {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 40px;
+  width: 872px;
+}
